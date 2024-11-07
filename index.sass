@@ -1,0 +1,60 @@
+.btn
+  text-align: center
+  background: blue
+  width: 300px
+  height: 30px
+  margin-left: 500px
+  color: white
+  margin-top: -2px
+.heading
+ text-align: center
+ width: 1200px
+ height: 64px
+   
+
+
+.speaker-slider
+  position: relative
+  display: flex
+  align-items: center
+  overflow: hidden
+  width: 1500px
+
+  &__container
+    display: flex
+    gap: 1rem
+    scroll-behavior: smooth
+    overflow-x: hidden
+    gap: 40px
+    margin: 140px
+    align-items: center
+
+  .slider__button
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    background: rgba(0, 0, 0, 0.5)
+    border: none
+    color: white
+    padding: 0.5rem
+    cursor: pointer
+    font-size: 1.5rem
+
+    &--left
+      left: 0
+
+    &--right
+      right: 0
+
+  .speaker-card
+    width: 243px
+    height: 329px
+    flex-shrink: 0
+    text-align: center
+    cursor: pointer
+
+    &__image
+      width: 100%
+      border-radius: 50%
+
+  

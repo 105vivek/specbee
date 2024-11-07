@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./index.css">
+<body>
+  <div class="heading">
+
+    <h1 class="heading-h1">View our Featured Speakers for the Event</h1>
+    <p class="heading-para">Speakers are core contributors and industry thought leaders working at companies that push for innovation.</p>
+  </div>
+  <br>
+  <!-- details -->
+  <div id="speaker-modal" class="speaker-modal" aria-hidden="true">
+    <div class="speaker-modal__content">
+      <button class="speaker-modal__close" onclick="closeSpeakerDetail()">×</button>
+      
+    </div>
+  </div>
+    <!-- block -->
+
+      <div class="speaker-slider">
+        <button class="slider__button slider__button--left" onclick="moveSlider(-1)">&#10094;</button>
+        <div class="speaker-slider__container" id="sliderContainer">
+
+          <div class="speaker-card" onclick="openSpeakerDetail(1)">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWm4woEJIoo2ICpyegi7ugjemX8euLDpflQ&s" alt="Speaker 1" class="speaker-card__image" />
+            <h3 class="speaker-card__name">Speaker 1</h3>
+            <p class="speaker-card__title">John Doe</p>
+          
+        </div>
+        <div class="speaker-card" onclick="openSpeakerDetail(2)">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWm4woEJIoo2ICpyegi7ugjemX8euLDpflQ&s" alt="Speaker 1" class="speaker-card__image" />
+          <h3 class="speaker-card__name">Speaker 2</h3>
+          <p class="speaker-card__title">John Doe</p>
+        
+      </div>
+          
+
+            <div class="speaker-card" onclick="openSpeakerDetail(3)">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWm4woEJIoo2ICpyegi7ugjemX8euLDpflQ&s" alt="Speaker 1" class="speaker-card__image" />
+              <h3 class="speaker-card__name">Speaker 3</h3>
+              <p class="speaker-card__title">John Doe</p>
+            
+          </div>
+
+            <div class="speaker-card" onclick="openSpeakerDetail(1)">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWm4woEJIoo2ICpyegi7ugjemX8euLDpflQ&s" alt="Speaker 1" class="speaker-card__image" />
+              <h3 class="speaker-card__name">Speaker 4</h3>
+              <p class="speaker-card__title">John Doe</p>
+            
+          </div>
+          <!-- here -->
+           
+
+            
+          
+
+          <div class="speaker-card" onclick="openSpeakerDetail(1)">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWm4woEJIoo2ICpyegi7ugjemX8euLDpflQ&s" alt="Speaker 1" class="speaker-card__image" />
+            <h3 class="speaker-card__name">Speaker 5</h3>
+            <p class="speaker-card__title">John Doe</p>
+          
+        </div>
+        <div class="speaker-card" onclick="openSpeakerDetail(1)">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWm4woEJIoo2ICpyegi7ugjemX8euLDpflQ&s" alt="Speaker 1" class="speaker-card__image" />
+          <h3 class="speaker-card__name">Speaker 7</h3>
+          <p class="speaker-card__title">John Doe</p>
+        
+      </div>
+          
+
+            <div class="speaker-card" onclick="openSpeakerDetail(1)">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWm4woEJIoo2ICpyegi7ugjemX8euLDpflQ&s" alt="Speaker 1" class="speaker-card__image" />
+              <h3 class="speaker-card__name">Speaker 8</h3>
+              <p class="speaker-card__title">John Doe</p>
+            
+          </div>
+
+            <div class="speaker-card" onclick="openSpeakerDetail(1)">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWm4woEJIoo2ICpyegi7ugjemX8euLDpflQ&s" alt="Speaker 1" class="speaker-card__image" />
+              <h3 class="speaker-card__name">Speaker 1</h3>
+              <p class="speaker-card__title">John Doe</p>
+            
+          </div>
+          <!-- Repeat for other speakers -->
+        </div>
+        <button class="slider__button slider__button--right" onclick="moveSlider(1)">&#10095;</button>
+      </div>
+      
+
+<!-- button -->
+ 
+
+<button class="btn">See the Program</button>
+</body>
+</html>
+<script src="index.js"></script>
