@@ -16,6 +16,13 @@
   <!-- details -->
   <div id="speaker-modal" class="speaker-modal" aria-hidden="true">
     <div class="speaker-modal__content">
+      <div class="speaker-modal__content__left">
+        <div class="speaker-modal__content__left__l"></div>
+        <div class="speaker-modal__content__left__r"></div>
+      </div>
+      <div class="speaker-modal__content_right"></div>
+    </div>
+    <div >
       <button class="speaker-modal__close" onclick="closeSpeakerDetail()">×</button>
       
     </div>
@@ -27,75 +34,62 @@
         <div class="speaker-slider__container" id="sliderContainer">
 
           <div class="speaker-card" onclick="openSpeakerDetail(1)">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWm4woEJIoo2ICpyegi7ugjemX8euLDpflQ&s" alt="Speaker 1" class="speaker-card__image" />
-            <h3 class="speaker-card__name">Speaker 1</h3>
-            <p class="speaker-card__title">John Doe</p>
-          
-        </div>
-        <div class="speaker-card" onclick="openSpeakerDetail(2)">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWm4woEJIoo2ICpyegi7ugjemX8euLDpflQ&s" alt="Speaker 1" class="speaker-card__image" />
-          <h3 class="speaker-card__name">Speaker 2</h3>
-          <p class="speaker-card__title">John Doe</p>
-        
-      </div>
-          
-
-            <div class="speaker-card" onclick="openSpeakerDetail(3)">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWm4woEJIoo2ICpyegi7ugjemX8euLDpflQ&s" alt="Speaker 1" class="speaker-card__image" />
-              <h3 class="speaker-card__name">Speaker 3</h3>
-              <p class="speaker-card__title">John Doe</p>
-            
-          </div>
-
-            <div class="speaker-card" onclick="openSpeakerDetail(1)">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWm4woEJIoo2ICpyegi7ugjemX8euLDpflQ&s" alt="Speaker 1" class="speaker-card__image" />
-              <h3 class="speaker-card__name">Speaker 4</h3>
-              <p class="speaker-card__title">John Doe</p>
-            
-          </div>
-          <!-- here -->
-           
-
-            
-          
-
-          <div class="speaker-card" onclick="openSpeakerDetail(1)">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWm4woEJIoo2ICpyegi7ugjemX8euLDpflQ&s" alt="Speaker 1" class="speaker-card__image" />
-            <h3 class="speaker-card__name">Speaker 5</h3>
-            <p class="speaker-card__title">John Doe</p>
+            <div class="speaker-card__image">
+              <img src="https://s3-alpha-sig.figma.com/img/d6a6/fffd/2100d987b5946aa1df33cf0f6c34a418?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p0ozEGQKCEzpMDFiGB0WI7e3Jy5hs~XAzkQEmXckRff9Yql3RG4oZ3qz7U-lmzlgN5l~VSp88OF3WSEHLG8hewYzujk8BfcrkQvmBJSeDEvGfDm6uDq5Hsx9cQ1cfgLQHZz10fHEBoS7H8kb73P-hWtJj2qYrDYGdR5YhEHfHT9EQehf5C90C4PZkDVQRu6FZWCVcxHr7FcTZGWaNC-LSjOSmA4KZaKs1FIk-OEuIlV9fK7KSQoo-7pSIHsF2dGTfhxvY4s8ywp-UY0qcUPSa7BHmFJKLlpd~NhfU2JEvdZGid5XK-F6O7RbD4CLUF1cc6yaUuh1WrCdQ9fM~aRMJQ__" alt="Speaker 1" class="speaker-card__image" />
+            </div>
+            <div class="speaker-card__name">
+              <h3 >John Doe</h3>
+              <h5>Chief Marketing Officer</h5>
+              <p >Acme corp</p>
+            </div>
           
         </div>
         <div class="speaker-card" onclick="openSpeakerDetail(1)">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWm4woEJIoo2ICpyegi7ugjemX8euLDpflQ&s" alt="Speaker 1" class="speaker-card__image" />
-          <h3 class="speaker-card__name">Speaker 7</h3>
-          <p class="speaker-card__title">John Doe</p>
+          <div class="speaker-card__image">
+            <img src="https://s3-alpha-sig.figma.com/img/9de3/b8aa/4e6fd86d00bc645311899b3fbcca52d5?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i-2az8c~TQ4GQTgMdGGA~OiZRcxQqNliOmg1Nrh3~q5mCbkyAXoOFrZXz3rtpBmhoLH2MEPcD8uyzrysiBixOxyySVYRLqY2pdQYKhqW1Kibe4meVDaoZKzWOedglJPRuLQhW62vUhFnnDWDaxe74zfw1MfHfD-qLD4-v2FEWZy4Ww64U6DTEIPNSgwu2vhoCu0UzxocqOeUDrobUZuHnzPMc29WeTKpzHo~9NfifEoSciD~yZUa0s40o9Q~gM54g-UhG-46MlVop01DP9xSiLXP3RnQq6B3DimGuPflSgw9-5gSLX5Z94~AVOpkYwkxNCs-jiWwTnZfxmyz5X~qIw__" alt="Speaker 2" class="speaker-card__image" />
+          </div>
+          <div class="speaker-card__name">
+            <h3 >John Doe</h3>
+            <h5>Chief Technical Developer</h5>
+            <p class="speaker-card__title">Pantheon</p>
+          </div>
         
-      </div>
-          
+      </div>          
 
-            <div class="speaker-card" onclick="openSpeakerDetail(1)">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWm4woEJIoo2ICpyegi7ugjemX8euLDpflQ&s" alt="Speaker 1" class="speaker-card__image" />
-              <h3 class="speaker-card__name">Speaker 8</h3>
-              <p class="speaker-card__title">John Doe</p>
-            
-          </div>
-
-            <div class="speaker-card" onclick="openSpeakerDetail(1)">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyWm4woEJIoo2ICpyegi7ugjemX8euLDpflQ&s" alt="Speaker 1" class="speaker-card__image" />
-              <h3 class="speaker-card__name">Speaker 1</h3>
-              <p class="speaker-card__title">John Doe</p>
-            
-          </div>
-          <!-- Repeat for other speakers -->
+      <div class="speaker-card" onclick="openSpeakerDetail(1)">
+        <div class="speaker-card__image">
+          <img src="https://s3-alpha-sig.figma.com/img/9134/0d19/81845f21043dd8f5192da248767c4eae?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=k803O02X0pXmvOoAJFVO6iTOVx5GGHL72bT8~YUINLU1Y6aGiPW2aRLhexGOSlbBUQ89XvZZIyecwmCJ5cV~hgYwOhN~oSLMER17lHrYCYNHAT2Jcn9BekVJbmj3zvnHHZVJR4KKR0tPZpDmCae~SI32EupBZK9ysXymdgpxj-WznEuPuu1xtWW3fyx7~ItSbU7hR86mpPpdqZ-Ds6PZH~4ZPPIkPip0oT7MehKrtQe-yXfJIoMZLu-bY9A02b~tUb2PtcZWKYBOElVVVcZRfkAG4MNx0B5RxvSxXsadVuMULmz3yebUvtY5qJrJy8gCIGCRpN35dN~qR3HpnuflCw__" alt="Speaker 1" class="speaker-card__image" />
         </div>
+        <div class="speaker-card__name">
+          <h3 >John Doe</h3>
+          <h5>Chief marketing officer</h5>
+          <p class="speaker-card__title">Acquia</p>
+        </div>
+      
+    </div>
+
+    <div class="speaker-card" onclick="openSpeakerDetail(1)">
+      <div class="speaker-card__image">
+        <img src="https://s3-alpha-sig.figma.com/img/aeba/3e61/75255eef4aafbeaf378e32d61894f628?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=THCVaU2hZrwyAHEhKFhbXoYU4qg1f7~FK7hrPzcA1iCzXSUKV88oyZd5eSNfxrMuuAW4CK4XbwO3NCLAk2QGzmpSTcqyvuz7honPyZsNEAklbn-Gq6x06PEkqzZWPaa2RBro6TBvLC9SUsP3S9LXnzg53jVNaJ5yg2YOBbUeLp3qzOF0zGCkKdBDFJ0EnvHqqqLmAEvMrhcxNBTbyWi2F0I7yk15nb5obNZYbGGz0Tr7z7U-tWrbHtmPC3ld7AFB~IBamtN9nQQ5GpER0agWBD0ZrbpLBfMLoCxhhIZQZeigQzKxqp9d~g8aWucIgPAZh8pDE-7IxdZjQ~CjaHDmEQ__" alt="Speaker 1" class="speaker-card__image" />
+      </div>
+      <div class="speaker-card__name">
+        <h3 >John Doe</h3>
+        <h5>Chief Engagement Officer</h5>
+        <p class="speaker-card__title">Specbee</p>
+      </div>
+    
+  </div>
+            </div>
         <button class="slider__button slider__button--right" onclick="moveSlider(1)">&#10095;</button>
       </div>
       
 
 <!-- button -->
  
+<div class="btn-see">
 
-<button class="btn">See the Program</button>
+  <button class="btn-see__button" >See the Program</button>
+</div>
 </body>
 </html>
 <script src="index.js"></script>

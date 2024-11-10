@@ -1,33 +1,69 @@
-.btn
-  text-align: center
-  background: blue
-  width: 300px
-  height: 30px
-  margin-left: 500px
-  color: white
-  margin-top: -2px
-.heading
- text-align: center
+.btn-see
+ position: absolute
+ width: 611px
+ height: 131px
+ left: 314px
+ top: 635px
+ &__button
+   position: absolute
+   width: 405px
+   height: 58.9px
+   left: calc(50% - 405px/2 + 2.5px)
+   top: 635px
+   background-color: blue
+   color: white
+
+
+  
+
+.heading-h1
  width: 1200px
- height: 64px
-   
+ height: 36px
+ font-family: 'Metropolis'
+ font-style: normal
+ font-weight: 700
+ font-size: 36px
+ line-height: 36px
+ flex: none
+ order: 0
+ align-self: stretch
+ flex-grow: 0
+ text-align: center
+ color: black
+ 
+.heading-para
+  width: 1200px
+  height: 18px
+  font-family: 'Metropolis'
+  font-style: normal
+  font-weight: 400
+  font-size: 18px
+  line-height: 18px
+  text-align: center
+  color: black
+  flex: none
+  order: 1
+  align-self: stretch
+  flex-grow: 0
+
 
 
 .speaker-slider
-  position: relative
-  display: flex
-  align-items: center
-  overflow: hidden
-  width: 1500px
+  
+
+
 
   &__container
     display: flex
-    gap: 1rem
-    scroll-behavior: smooth
-    overflow-x: hidden
-    gap: 40px
-    margin: 140px
+    flex-direction: row
     align-items: center
+    padding: 0px
+    gap: 20px
+    position: absolute
+    width: 1200px
+    height: 321px
+    left: 120px
+    top: 229px
 
   .slider__button
     position: absolute
@@ -47,14 +83,64 @@
       right: 0
 
   .speaker-card
-    width: 243px
-    height: 329px
-    flex-shrink: 0
-    text-align: center
-    cursor: pointer
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 36px 21px
+    gap: 16px
+    width: 285px
+    height: 321px
+    background: #FFFFFF
+    box-shadow: 4px 10px 24px rgba(0, 0, 0, 0.1)
+    border-radius: 10px
+    flex: none
+    order: 0
+    flex-grow: 0
+
 
     &__image
-      width: 100%
-      border-radius: 50%
+     width: 243px
+     height: 249px
+     gap: 16px
 
+     img
+     width: 150px
+     height: 150px
+     background: url(.jpg), #FFFFFF
+     flex: none
+     order: 0
+     flex-grow: 0
+     border-radius: 50%
+    
+    &__name
+     width: 243px
+     height: 83px
+     flex: none
+     order: 1
+     align-self: stretch
+     flex-grow: 0
+     text-align: center
+     font: "Metropolis"
+     h3
+      weight: 700
+      size: 24px
+      line-height: 24px
+     h5
+      weight: 600
+      line-height: 18px
+      size: 18px
+      color: rgba(0, 0, 0, 1)
+     p
+      weight: 400
+      line-height: 16px
+      size: 16px
+      color: rgba(107, 107, 107, 1)
+
+
+#speaker-modal
+ width: 1200px
+ height: 233px
+ display: flex
+ 
+     
   
